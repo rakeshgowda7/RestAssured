@@ -1,0 +1,3 @@
+tests\TestPutPatchDelete.class
+tests\TestExamples.class
+tests\TestGetAndPost.class

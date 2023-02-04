@@ -25,7 +25,7 @@ public class TestExamples {
 
 	@Test
 	public void test_2() {
-//		baseURI = "https://reqres.in/api/";
+		baseURI = "https://reqres.in/api/";
 		given().get("https://reqres.in/api/users?page=2").then().statusCode(200).body("data[0].id", equalTo(7)).log().all();
 
 	}
